@@ -1,2631 +1,817 @@
-<!doctype html>
-<html>
-    
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Garrick Aden-Buie</title>
-        <style>
-            /*!
-* Bootstrap v3.3.7 (http://getbootstrap.com)
-* Copyright 2011-2017 Twitter, Inc.
-* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-*/
+<!DOCTYPE html>
+<html lang="en">
 
-/*!
-* Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=3aa489af73542f4a84df731fdc076c6c)
-* Config saved to config.json and https://gist.github.com/3aa489af73542f4a84df731fdc076c6c
-*/
-/*!
-* Bootstrap v3.3.7 (http://getbootstrap.com)
-* Copyright 2011-2016 Twitter, Inc.
-* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-*/
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Source+Sans+Pro:300,400,600,700');
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - MyResume Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-body {
-    margin: 0;
-}
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-    display: block;
-}
-audio,
-canvas,
-progress,
-video {
-    display: inline-block;
-    vertical-align: baseline;
-}
-audio:not([controls]) {
-    display: none;
-    height: 0;
-}
-[hidden],
-template {
-    display: none;
-}
-a {
-    background-color: transparent;
-}
-a:active,
-a:hover {
-    outline: 0;
-}
-abbr[title] {
-    border-bottom: 1px dotted;
-}
-b,
-strong {
-    font-weight: bold;
-}
-dfn {
-    font-style: italic;
-}
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-mark {
-    background: #ff0;
-    color: #000;
-}
-small {
-    font-size: 80%;
-}
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-}
-sup {
-    top: -0.5em;
-}
-sub {
-    bottom: -0.25em;
-}
-img {
-    border: 0;
-}
-svg:not(:root) {
-    overflow: hidden;
-}
-figure {
-    margin: 1em 40px;
-}
-hr {
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    height: 0;
-}
-pre {
-    overflow: auto;
-}
-code,
-kbd,
-pre,
-samp {
-    font-family: monospace, monospace;
-    font-size: 1em;
-}
-button,
-input,
-optgroup,
-select,
-textarea {
-    color: inherit;
-    font: inherit;
-    margin: 0;
-}
-button {
-    overflow: visible;
-}
-button,
-select {
-    text-transform: none;
-}
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-    -webkit-appearance: button;
-    cursor: pointer;
-}
-button[disabled],
-html input[disabled] {
-    cursor: default;
-}
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
-}
-input {
-    line-height: normal;
-}
-input[type="checkbox"],
-input[type="radio"] {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0;
-}
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-    height: auto;
-}
-input[type="search"] {
-    -webkit-appearance: textfield;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-}
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
-}
-fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
-    padding: 0.35em 0.625em 0.75em;
-}
-legend {
-    border: 0;
-    padding: 0;
-}
-textarea {
-    overflow: auto;
-}
-optgroup {
-    font-weight: bold;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-td,
-th {
-    padding: 0;
-}
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
-@media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        /* color: #000 !important; */
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-    a[href]:after {
-        content: none;
-    }
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-    thead {
-        display: table-header-group;
-    }
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-    img {
-        max-width: 100% !important;
-    }
-    p,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        orphans: 3;
-        widows: 3;
-    }
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        page-break-after: avoid;
-    }
-    .navbar {
-        display: none;
-    }
-    .btn > .caret,
-    .dropup > .btn > .caret {
-        border-top-color: #000 !important;
-    }
-    .label {
-        border: 1px solid #000;
-    }
-    .table {
-        border-collapse: collapse !important;
-    }
-    .table td,
-    .table th {
-        background-color: #fff !important;
-    }
-    .table-bordered th,
-    .table-bordered td {
-        border: 1px solid #ddd !important;
-    }
-}
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-*:before,
-*:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-html {
-    font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-body {
-    font-family: "Source Sans Pro", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    line-height: 1.42857143;
-    color: #333333;
-    background-color: #ffffff;
-}
-input,
-button,
-select,
-textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
-a, a:visited {
-    /*color: #337ab7;*/
-    color: #ea5359;
-    text-decoration: none;
-}
-a:hover,
-a:focus {
-    /*color: #23527c;*/
-    /* color: #cb484d; */
-    text-decoration: underline;
-}
-a:focus {
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px;
-}
-figure {
-    margin: 0;
-}
-img {
-    vertical-align: middle;
-}
-.img-responsive {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-.img-rounded {
-    border-radius: 6px;
-}
-.img-thumbnail {
-    padding: 4px;
-    line-height: 1.42857143;
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    border-radius: 4px;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    display: inline-block;
-    max-width: 100%;
-    height: auto;
-}
-.img-circle {
-    border-radius: 50%;
-}
-hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 0;
-    border-top: 1px solid #eeeeee;
-}
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-}
-.sr-only-focusable:active,
-.sr-only-focusable:focus {
-    position: static;
-    width: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    clip: auto;
-}
-[role="button"] {
-    cursor: pointer;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;
-    color: inherit;
-}
-h1 small,
-h2 small,
-h3 small,
-h4 small,
-h5 small,
-h6 small,
-.h1 small,
-.h2 small,
-.h3 small,
-.h4 small,
-.h5 small,
-.h6 small,
-h1 .small,
-h2 .small,
-h3 .small,
-h4 .small,
-h5 .small,
-h6 .small,
-.h1 .small,
-.h2 .small,
-.h3 .small,
-.h4 .small,
-.h5 .small,
-.h6 .small {
-    font-weight: normal;
-    line-height: 1;
-    color: #777777;
-}
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-h1 small,
-.h1 small,
-h2 small,
-.h2 small,
-h3 small,
-.h3 small,
-h1 .small,
-.h1 .small,
-h2 .small,
-.h2 .small,
-h3 .small,
-.h3 .small {
-    font-size: 65%;
-}
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-h4 small,
-.h4 small,
-h5 small,
-.h5 small,
-h6 small,
-.h6 small,
-h4 .small,
-.h4 .small,
-h5 .small,
-.h5 .small,
-h6 .small,
-.h6 .small {
-    font-size: 75%;
-}
-h1,
-.h1 {
-    font-size: 36px;
-}
-h2,
-.h2 {
-    font-size: 30px;
-}
-h3,
-.h3 {
-    font-size: 24px;
-}
-h4,
-.h4 {
-    font-size: 18px;
-}
-h5,
-.h5 {
-    font-size: 14px;
-}
-h6,
-.h6 {
-    font-size: 12px;
-}
-p {
-    margin: 0 0 10px;
-}
-.lead {
-    margin-bottom: 20px;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.4;
-}
-@media (min-width: 768px) {
-    .lead {
-        font-size: 21px;
-    }
-}
-small,
-.small {
-    font-size: 85%;
-}
-mark,
-.mark {
-    background-color: #fcf8e3;
-    padding: .2em;
-}
-.text-left {
-    text-align: left;
-}
-.text-right {
-    text-align: right;
-}
-.text-center {
-    text-align: center;
-}
-.text-justify {
-    text-align: justify;
-}
-.text-nowrap {
-    white-space: nowrap;
-}
-.text-lowercase {
-    text-transform: lowercase;
-}
-.text-uppercase {
-    text-transform: uppercase;
-}
-.text-capitalize {
-    text-transform: capitalize;
-}
-.text-muted {
-    color: #777777;
-}
-.text-primary {
-    color: #337ab7;
-}
-a.text-primary:hover,
-a.text-primary:focus {
-    color: #286090;
-}
-.text-success {
-    color: #3c763d;
-}
-a.text-success:hover,
-a.text-success:focus {
-    color: #2b542c;
-}
-.text-info {
-    color: #31708f;
-}
-a.text-info:hover,
-a.text-info:focus {
-    color: #245269;
-}
-.text-warning {
-    color: #8a6d3b;
-}
-a.text-warning:hover,
-a.text-warning:focus {
-    color: #66512c;
-}
-.text-danger {
-    color: #a94442;
-}
-a.text-danger:hover,
-a.text-danger:focus {
-    color: #843534;
-}
-.bg-primary {
-    color: #fff;
-    background-color: #337ab7;
-}
-a.bg-primary:hover,
-a.bg-primary:focus {
-    background-color: #286090;
-}
-.bg-success {
-    background-color: #dff0d8;
-}
-a.bg-success:hover,
-a.bg-success:focus {
-    background-color: #c1e2b3;
-}
-.bg-info {
-    background-color: #d9edf7;
-}
-a.bg-info:hover,
-a.bg-info:focus {
-    background-color: #afd9ee;
-}
-.bg-warning {
-    background-color: #fcf8e3;
-}
-a.bg-warning:hover,
-a.bg-warning:focus {
-    background-color: #f7ecb5;
-}
-.bg-danger {
-    background-color: #f2dede;
-}
-a.bg-danger:hover,
-a.bg-danger:focus {
-    background-color: #e4b9b9;
-}
-.page-header {
-    padding-bottom: 5px;
-    margin: 40px 0 10px;
-    border-bottom: 1px solid #eeeeee;
-}
-ul,
-ol {
-    margin-top: 0;
-    margin-bottom: 10px;
-    padding-left: 23px;
-}
-ul ul,
-ol ul,
-ul ol,
-ol ol {
-    margin-bottom: 0;
-}
-.column-right ul li {
-    list-style-type: square;
-}
-.list-unstyled {
-    padding-left: 0;
-    list-style: none;
-}
-.list-inline {
-    padding-left: 0;
-    list-style: none;
-    margin-left: -5px;
-}
-.list-inline > li {
-    display: inline-block;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-dl {
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-dt,
-dd {
-    line-height: 1.42857143;
-}
-dt {
-    font-weight: bold;
-}
-dd {
-    margin-left: 0;
-}
-@media (min-width: 768px) {
-    .dl-horizontal dt {
-        float: left;
-        width: 160px;
-        clear: left;
-        text-align: right;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-    .dl-horizontal dd {
-        margin-left: 180px;
-    }
-}
-abbr[title],
-abbr[data-original-title] {
-    cursor: help;
-    border-bottom: 1px dotted #777777;
-}
-.initialism {
-    font-size: 90%;
-    text-transform: uppercase;
-}
-blockquote {
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    font-size: 17.5px;
-    border-left: 5px solid #eeeeee;
-}
-blockquote p:last-child,
-blockquote ul:last-child,
-blockquote ol:last-child {
-    margin-bottom: 0;
-}
-blockquote footer,
-blockquote small,
-blockquote .small {
-    display: block;
-    font-size: 80%;
-    line-height: 1.42857143;
-    color: #777777;
-}
-blockquote footer:before,
-blockquote small:before,
-blockquote .small:before {
-    content: '\2014 \00A0';
-}
-.blockquote-reverse,
-blockquote.pull-right {
-    padding-right: 15px;
-    padding-left: 0;
-    border-right: 5px solid #eeeeee;
-    border-left: 0;
-    text-align: right;
-}
-.blockquote-reverse footer:before,
-blockquote.pull-right footer:before,
-.blockquote-reverse small:before,
-blockquote.pull-right small:before,
-.blockquote-reverse .small:before,
-blockquote.pull-right .small:before {
-    content: '';
-}
-.blockquote-reverse footer:after,
-blockquote.pull-right footer:after,
-.blockquote-reverse small:after,
-blockquote.pull-right small:after,
-.blockquote-reverse .small:after,
-blockquote.pull-right .small:after {
-    content: '\00A0 \2014';
-}
-address {
-    margin-bottom: 20px;
-    font-style: normal;
-    line-height: 1.42857143;
-}
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-}
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
-}
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
-}
-.container-fluid {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.row {
-    margin-left: -15px;
-    margin-right: -15px;
-}
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-    float: left;
-}
-.col-xs-12 {
-    width: 100%;
-}
-.col-xs-11 {
-    width: 91.66666667%;
-}
-.col-xs-10 {
-    width: 83.33333333%;
-}
-.col-xs-9 {
-    width: 75%;
-}
-.col-xs-8 {
-    width: 66.66666667%;
-}
-.col-xs-7 {
-    width: 58.33333333%;
-}
-.col-xs-6 {
-    width: 50%;
-}
-.col-xs-5 {
-    width: 41.66666667%;
-}
-.col-xs-4 {
-    width: 33.33333333%;
-}
-.col-xs-3 {
-    width: 25%;
-}
-.col-xs-2 {
-    width: 16.66666667%;
-}
-.col-xs-1 {
-    width: 8.33333333%;
-}
-.col-xs-pull-12 {
-    right: 100%;
-}
-.col-xs-pull-11 {
-    right: 91.66666667%;
-}
-.col-xs-pull-10 {
-    right: 83.33333333%;
-}
-.col-xs-pull-9 {
-    right: 75%;
-}
-.col-xs-pull-8 {
-    right: 66.66666667%;
-}
-.col-xs-pull-7 {
-    right: 58.33333333%;
-}
-.col-xs-pull-6 {
-    right: 50%;
-}
-.col-xs-pull-5 {
-    right: 41.66666667%;
-}
-.col-xs-pull-4 {
-    right: 33.33333333%;
-}
-.col-xs-pull-3 {
-    right: 25%;
-}
-.col-xs-pull-2 {
-    right: 16.66666667%;
-}
-.col-xs-pull-1 {
-    right: 8.33333333%;
-}
-.col-xs-pull-0 {
-    right: auto;
-}
-.col-xs-push-12 {
-    left: 100%;
-}
-.col-xs-push-11 {
-    left: 91.66666667%;
-}
-.col-xs-push-10 {
-    left: 83.33333333%;
-}
-.col-xs-push-9 {
-    left: 75%;
-}
-.col-xs-push-8 {
-    left: 66.66666667%;
-}
-.col-xs-push-7 {
-    left: 58.33333333%;
-}
-.col-xs-push-6 {
-    left: 50%;
-}
-.col-xs-push-5 {
-    left: 41.66666667%;
-}
-.col-xs-push-4 {
-    left: 33.33333333%;
-}
-.col-xs-push-3 {
-    left: 25%;
-}
-.col-xs-push-2 {
-    left: 16.66666667%;
-}
-.col-xs-push-1 {
-    left: 8.33333333%;
-}
-.col-xs-push-0 {
-    left: auto;
-}
-.col-xs-offset-12 {
-    margin-left: 100%;
-}
-.col-xs-offset-11 {
-    margin-left: 91.66666667%;
-}
-.col-xs-offset-10 {
-    margin-left: 83.33333333%;
-}
-.col-xs-offset-9 {
-    margin-left: 75%;
-}
-.col-xs-offset-8 {
-    margin-left: 66.66666667%;
-}
-.col-xs-offset-7 {
-    margin-left: 58.33333333%;
-}
-.col-xs-offset-6 {
-    margin-left: 50%;
-}
-.col-xs-offset-5 {
-    margin-left: 41.66666667%;
-}
-.col-xs-offset-4 {
-    margin-left: 33.33333333%;
-}
-.col-xs-offset-3 {
-    margin-left: 25%;
-}
-.col-xs-offset-2 {
-    margin-left: 16.66666667%;
-}
-.col-xs-offset-1 {
-    margin-left: 8.33333333%;
-}
-.col-xs-offset-0 {
-    margin-left: 0%;
-}
-@media (min-width: 768px) {
-    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-        float: left;
-    }
-    .col-sm-12 {
-        width: 100%;
-    }
-    .col-sm-11 {
-        width: 91.66666667%;
-    }
-    .col-sm-10 {
-        width: 83.33333333%;
-    }
-    .col-sm-9 {
-        width: 75%;
-    }
-    .col-sm-8 {
-        width: 66.66666667%;
-    }
-    .col-sm-7 {
-        width: 58.33333333%;
-    }
-    .col-sm-6 {
-        width: 50%;
-    }
-    .col-sm-5 {
-        width: 41.66666667%;
-    }
-    .col-sm-4 {
-        width: 33.33333333%;
-    }
-    .col-sm-3 {
-        width: 25%;
-    }
-    .col-sm-2 {
-        width: 16.66666667%;
-    }
-    .col-sm-1 {
-        width: 8.33333333%;
-    }
-    .col-sm-pull-12 {
-        right: 100%;
-    }
-    .col-sm-pull-11 {
-        right: 91.66666667%;
-    }
-    .col-sm-pull-10 {
-        right: 83.33333333%;
-    }
-    .col-sm-pull-9 {
-        right: 75%;
-    }
-    .col-sm-pull-8 {
-        right: 66.66666667%;
-    }
-    .col-sm-pull-7 {
-        right: 58.33333333%;
-    }
-    .col-sm-pull-6 {
-        right: 50%;
-    }
-    .col-sm-pull-5 {
-        right: 41.66666667%;
-    }
-    .col-sm-pull-4 {
-        right: 33.33333333%;
-    }
-    .col-sm-pull-3 {
-        right: 25%;
-    }
-    .col-sm-pull-2 {
-        right: 16.66666667%;
-    }
-    .col-sm-pull-1 {
-        right: 8.33333333%;
-    }
-    .col-sm-pull-0 {
-        right: auto;
-    }
-    .col-sm-push-12 {
-        left: 100%;
-    }
-    .col-sm-push-11 {
-        left: 91.66666667%;
-    }
-    .col-sm-push-10 {
-        left: 83.33333333%;
-    }
-    .col-sm-push-9 {
-        left: 75%;
-    }
-    .col-sm-push-8 {
-        left: 66.66666667%;
-    }
-    .col-sm-push-7 {
-        left: 58.33333333%;
-    }
-    .col-sm-push-6 {
-        left: 50%;
-    }
-    .col-sm-push-5 {
-        left: 41.66666667%;
-    }
-    .col-sm-push-4 {
-        left: 33.33333333%;
-    }
-    .col-sm-push-3 {
-        left: 25%;
-    }
-    .col-sm-push-2 {
-        left: 16.66666667%;
-    }
-    .col-sm-push-1 {
-        left: 8.33333333%;
-    }
-    .col-sm-push-0 {
-        left: auto;
-    }
-    .col-sm-offset-12 {
-        margin-left: 100%;
-    }
-    .col-sm-offset-11 {
-        margin-left: 91.66666667%;
-    }
-    .col-sm-offset-10 {
-        margin-left: 83.33333333%;
-    }
-    .col-sm-offset-9 {
-        margin-left: 75%;
-    }
-    .col-sm-offset-8 {
-        margin-left: 66.66666667%;
-    }
-    .col-sm-offset-7 {
-        margin-left: 58.33333333%;
-    }
-    .col-sm-offset-6 {
-        margin-left: 50%;
-    }
-    .col-sm-offset-5 {
-        margin-left: 41.66666667%;
-    }
-    .col-sm-offset-4 {
-        margin-left: 33.33333333%;
-    }
-    .col-sm-offset-3 {
-        margin-left: 25%;
-    }
-    .col-sm-offset-2 {
-        margin-left: 16.66666667%;
-    }
-    .col-sm-offset-1 {
-        margin-left: 8.33333333%;
-    }
-    .col-sm-offset-0 {
-        margin-left: 0%;
-    }
-}
-@media (min-width: 992px) {
-    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-        float: left;
-    }
-    .col-md-12 {
-        width: 100%;
-    }
-    .col-md-11 {
-        width: 91.66666667%;
-    }
-    .col-md-10 {
-        width: 83.33333333%;
-    }
-    .col-md-9 {
-        width: 75%;
-    }
-    .col-md-8 {
-        width: 66.66666667%;
-    }
-    .col-md-7 {
-        width: 58.33333333%;
-    }
-    .col-md-6 {
-        width: 50%;
-    }
-    .col-md-5 {
-        width: 41.66666667%;
-    }
-    .col-md-4 {
-        width: 33.33333333%;
-    }
-    .col-md-3 {
-        width: 25%;
-    }
-    .col-md-2 {
-        width: 16.66666667%;
-    }
-    .col-md-1 {
-        width: 8.33333333%;
-    }
-    .col-md-pull-12 {
-        right: 100%;
-    }
-    .col-md-pull-11 {
-        right: 91.66666667%;
-    }
-    .col-md-pull-10 {
-        right: 83.33333333%;
-    }
-    .col-md-pull-9 {
-        right: 75%;
-    }
-    .col-md-pull-8 {
-        right: 66.66666667%;
-    }
-    .col-md-pull-7 {
-        right: 58.33333333%;
-    }
-    .col-md-pull-6 {
-        right: 50%;
-    }
-    .col-md-pull-5 {
-        right: 41.66666667%;
-    }
-    .col-md-pull-4 {
-        right: 33.33333333%;
-    }
-    .col-md-pull-3 {
-        right: 25%;
-    }
-    .col-md-pull-2 {
-        right: 16.66666667%;
-    }
-    .col-md-pull-1 {
-        right: 8.33333333%;
-    }
-    .col-md-pull-0 {
-        right: auto;
-    }
-    .col-md-push-12 {
-        left: 100%;
-    }
-    .col-md-push-11 {
-        left: 91.66666667%;
-    }
-    .col-md-push-10 {
-        left: 83.33333333%;
-    }
-    .col-md-push-9 {
-        left: 75%;
-    }
-    .col-md-push-8 {
-        left: 66.66666667%;
-    }
-    .col-md-push-7 {
-        left: 58.33333333%;
-    }
-    .col-md-push-6 {
-        left: 50%;
-    }
-    .col-md-push-5 {
-        left: 41.66666667%;
-    }
-    .col-md-push-4 {
-        left: 33.33333333%;
-    }
-    .col-md-push-3 {
-        left: 25%;
-    }
-    .col-md-push-2 {
-        left: 16.66666667%;
-    }
-    .col-md-push-1 {
-        left: 8.33333333%;
-    }
-    .col-md-push-0 {
-        left: auto;
-    }
-    .col-md-offset-12 {
-        margin-left: 100%;
-    }
-    .col-md-offset-11 {
-        margin-left: 91.66666667%;
-    }
-    .col-md-offset-10 {
-        margin-left: 83.33333333%;
-    }
-    .col-md-offset-9 {
-        margin-left: 75%;
-    }
-    .col-md-offset-8 {
-        margin-left: 66.66666667%;
-    }
-    .col-md-offset-7 {
-        margin-left: 58.33333333%;
-    }
-    .col-md-offset-6 {
-        margin-left: 50%;
-    }
-    .col-md-offset-5 {
-        margin-left: 41.66666667%;
-    }
-    .col-md-offset-4 {
-        margin-left: 33.33333333%;
-    }
-    .col-md-offset-3 {
-        margin-left: 25%;
-    }
-    .col-md-offset-2 {
-        margin-left: 16.66666667%;
-    }
-    .col-md-offset-1 {
-        margin-left: 8.33333333%;
-    }
-    .col-md-offset-0 {
-        margin-left: 0%;
-    }
-}
-@media (min-width: 1200px) {
-    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-        float: left;
-    }
-    .col-lg-12 {
-        width: 100%;
-    }
-    .col-lg-11 {
-        width: 91.66666667%;
-    }
-    .col-lg-10 {
-        width: 83.33333333%;
-    }
-    .col-lg-9 {
-        width: 75%;
-    }
-    .col-lg-8 {
-        width: 66.66666667%;
-    }
-    .col-lg-7 {
-        width: 58.33333333%;
-    }
-    .col-lg-6 {
-        width: 50%;
-    }
-    .col-lg-5 {
-        width: 41.66666667%;
-    }
-    .col-lg-4 {
-        width: 33.33333333%;
-    }
-    .col-lg-3 {
-        width: 25%;
-    }
-    .col-lg-2 {
-        width: 16.66666667%;
-    }
-    .col-lg-1 {
-        width: 8.33333333%;
-    }
-    .col-lg-pull-12 {
-        right: 100%;
-    }
-    .col-lg-pull-11 {
-        right: 91.66666667%;
-    }
-    .col-lg-pull-10 {
-        right: 83.33333333%;
-    }
-    .col-lg-pull-9 {
-        right: 75%;
-    }
-    .col-lg-pull-8 {
-        right: 66.66666667%;
-    }
-    .col-lg-pull-7 {
-        right: 58.33333333%;
-    }
-    .col-lg-pull-6 {
-        right: 50%;
-    }
-    .col-lg-pull-5 {
-        right: 41.66666667%;
-    }
-    .col-lg-pull-4 {
-        right: 33.33333333%;
-    }
-    .col-lg-pull-3 {
-        right: 25%;
-    }
-    .col-lg-pull-2 {
-        right: 16.66666667%;
-    }
-    .col-lg-pull-1 {
-        right: 8.33333333%;
-    }
-    .col-lg-pull-0 {
-        right: auto;
-    }
-    .col-lg-push-12 {
-        left: 100%;
-    }
-    .col-lg-push-11 {
-        left: 91.66666667%;
-    }
-    .col-lg-push-10 {
-        left: 83.33333333%;
-    }
-    .col-lg-push-9 {
-        left: 75%;
-    }
-    .col-lg-push-8 {
-        left: 66.66666667%;
-    }
-    .col-lg-push-7 {
-        left: 58.33333333%;
-    }
-    .col-lg-push-6 {
-        left: 50%;
-    }
-    .col-lg-push-5 {
-        left: 41.66666667%;
-    }
-    .col-lg-push-4 {
-        left: 33.33333333%;
-    }
-    .col-lg-push-3 {
-        left: 25%;
-    }
-    .col-lg-push-2 {
-        left: 16.66666667%;
-    }
-    .col-lg-push-1 {
-        left: 8.33333333%;
-    }
-    .col-lg-push-0 {
-        left: auto;
-    }
-    .col-lg-offset-12 {
-        margin-left: 100%;
-    }
-    .col-lg-offset-11 {
-        margin-left: 91.66666667%;
-    }
-    .col-lg-offset-10 {
-        margin-left: 83.33333333%;
-    }
-    .col-lg-offset-9 {
-        margin-left: 75%;
-    }
-    .col-lg-offset-8 {
-        margin-left: 66.66666667%;
-    }
-    .col-lg-offset-7 {
-        margin-left: 58.33333333%;
-    }
-    .col-lg-offset-6 {
-        margin-left: 50%;
-    }
-    .col-lg-offset-5 {
-        margin-left: 41.66666667%;
-    }
-    .col-lg-offset-4 {
-        margin-left: 33.33333333%;
-    }
-    .col-lg-offset-3 {
-        margin-left: 25%;
-    }
-    .col-lg-offset-2 {
-        margin-left: 16.66666667%;
-    }
-    .col-lg-offset-1 {
-        margin-left: 8.33333333%;
-    }
-    .col-lg-offset-0 {
-        margin-left: 0%;
-    }
-}
-.clearfix:before,
-.clearfix:after,
-.dl-horizontal dd:before,
-.dl-horizontal dd:after,
-.container:before,
-.container:after,
-.container-fluid:before,
-.container-fluid:after,
-.row:before,
-.row:after {
-    content: " ";
-    display: table;
-}
-.clearfix:after,
-.dl-horizontal dd:after,
-.container:after,
-.container-fluid:after,
-.row:after {
-    clear: both;
-}
-.center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.pull-right {
-    float: right !important;
-}
-.pull-left {
-    float: left !important;
-}
-.hide {
-    display: none !important;
-}
-.show {
-    display: block !important;
-}
-.invisible {
-    visibility: hidden;
-}
-.text-hide {
-    font: 0/0 a;
-    color: transparent;
-    text-shadow: none;
-    background-color: transparent;
-    border: 0;
-}
-.hidden {
-    display: none !important;
-}
-.affix {
-    position: fixed;
-}
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-body {
-    background: #EEEEEE;
-    font-family: 'Source Sans Pro', sans-serif;
-    line-height: 1.4;
-    margin: 40px 0;
-}
-.container {
-    margin: 0 auto;
-    max-width: 8.5in;
-    padding: 80px 100px;
-    background: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 4px #aaa;
-    -webkit-box-shadow: 2px 2px 4px #aaa;
-}
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-.page-header {
-    padding-bottom: 5px;
-    margin: 40px 0 10px;
-    border-bottom: 1px solid #eeeeee;
-}
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-.page-header h5 {
-    margin: 0px;
-    padding: 0px;
-    line-height: .8;
-    font-weight: bold;
-}
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-.page-header {
-    margin-top: 0px;
-}
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
 
-.no-margin-top {
-    margin-top: 0px;
-}
+<body class="index-page">
 
-.no-margin {
-    margin: 0;
-}
-.no-margin-bottom {
-    margin-bottom: 0px;
-}
+  <header id="header" class="header d-flex flex-column justify-content-center">
 
-.sm-margin-bottom {
-    margin-bottom: 8px;
-}
+    <i class="header-toggle d-xl-none bi bi-list"></i>
 
-.sm-margin-top {
-    margin: 8px 0px 0px 0px;
-}
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
 
-.lg-margin-top {
-    margin-top: 15px;
-}
+  </header>
 
-.no-padding {
-    padding: 0;
-}
+  <main class="main">
 
-.no-padding-left {
-    padding-left: 0px;
-}
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
 
-.no-padding-right {
-    padding-right: 0px;
-}
+      <img src="assets/img/hero-bg.jpg" alt="">
 
-.sm-padding-left {
-    padding-left: 8px;
-}
-
-.no-bullets {
-    list-style: none;
-}
-
-.job-title {
-    float: left;
-    font-size: 1.25em;
-    width: 100%;
-}
-
-.job-details, .education-date {
-    font-size: .7em;
-    float: right;
-    text-align: right;
-    margin-bottom: 0;
-}
-
-.education-date {
-    padding-top: 5px;
-}
-
-.job-information {
-    font-size: 0.85em;
-    padding: 0 0 0 0px;
-}
-
-.education-details {
-    font-style: italic;
-    /* padding-left: 8px; */
-    font-size: 0.92em;
-}
-
-.education-courses {
-    columns: 2;
-}
-
-.print-together {
-    page-break-inside: auto;
-}
-
-.no-page-break-after {
-    page-break-after: avoid;
-}
-
-.no-page-break {
-    page-break-inside: avoid;
-    page-break-after: auto;
-}
-
-.newspaper {
-    text-align: justify;
-    text-justify: newspaper;
-    padding-left: 5px;
-    border-left: 2px solid lightblue;
-}
-
-.basics-name {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 700;
-  line-height: .8;
-}
-
-.basics-label {
-  font-weight: 300;
-  white-space: nowrap;
-}
-
-h5 {
-    font-family: "Noto Sans", "Source Sans Pro", sans-serif;
-}
-
-.page-header h5 {
-    font-variant-caps: petite-caps;
-    font-size: 1.16666em;
-}
-@media (max-width: 768px) {
-    .container {
-        padding: 15px;
-    }
-    body {
-        font-size: 0.95em;
-        margin: 5px;
-    }
-}
-@media print {
-    @page {
-        size: letter portrait;
-        margin: 25mm;
-    }
-    .container {
-        max-width: 100%;
-        border: 0px;
-        background: #fff;
-        box-shadow: none;
-        -webkit-box-shadow: none;
-    }
-    body,
-    html,
-    .container {
-        margin: 0mm;
-        padding-top: 0mm;
-        padding-bottom: 0mm;
-        padding-left: 2mm;
-        padding-right: 2mm;
-        font-size: 8pt;
-    }
-    .col-xs-3 {
-        width: 20%;
-    }
-    .col-xs-9 {
-        width: 80%;
-    }
-    .sm-margin-top {
-        margin: 4px 0px 0px 0px;
-    }
-    h6 small {
-        color: #555555;
-    }
-}
-        </style>
-    </head>
-    
-    <body>
-        <div class="container">
-            <!-- Name, title -->
-             <h3 class="basics-name sm-margin-bottom no-margin-top">
-                Garrick Aden-Buie
-                <span class="basics-label">Data Scientist</span>
-            </h3>
-
-            <p class="newspaper no-margin-bottom">Motivated, life-long learner. Always looking for questions and answers
-                in the data. Passionate about collaboration, sharing knowledge, and communicating
-                insights. Known as a highly organized, perceptive, and resourceful team
-                player.</p>
-            <!-- LEFT COLUMN -->
-            <div class="col-xs-3 no-padding lg-margin-top">
-                <div class="page-header no-margin">
-                     <h5>About</h5>
-
-                </div>
-                <!-- LEFT COLUMN: Address, contact information --> <small>
-                    <ul class="no-bullets no-padding-left no-margin-bottom">
-                        <li>
-                            <a href="https://www.garrickadenbuie.com">garrickadenbuie.com</a>
-                        </li>
-                        <li>
-                            <a href="mailto:garrick@adenbuie.com">garrick@adenbuie.com</a>
-                        </li>
-                        <li>(727) 344-9568</li>
-                        <li>
-                            St. Petersburg, Florida (US)
-                       </li>
-                    </ul>
-                    <!-- // LEFT COLUMN: Address, contact information -->
-
-
-                    <!-- LEFT COLUMN: Social Networking -->
-                    <ul class="no-bullets no-padding-left">
-                        <li><strong>GitHub:</strong> <a href="https://github.com/gadenbuie">gadenbuie</a></li>
-                        <li><strong>Twitter:</strong> <a href="https://twitter.com/grrrck">grrrck</a></li>
-                    </ul>
-                    <!-- // LEFT COLUMN: Social Networking -->
-
-
-
-                    <!-- LEFT COLUMN: Languages -->
-                    <div class="page-header no-margin lg-margin-top">
-                        <h5>Languages</h5>
-                    </div>
-
-                    <div class="print-together">
-                        <div class="no-page-break">
-                            <strong>English</strong>
-                            (Native)
-                            <br />
-                            <strong>Spanish</strong>
-                            (Superior ACTFL/ETS)
-                            <br />
-                        </div>
-                    </div>
-                    <!-- // LEFT COLUMN: Languages -->
-
-
-                    <!-- LEFT COLUMN: Skills -->
-                    <div class="page-header no-margin lg-margin-top">
-                        <h5>Skills</h5>
-                    </div>
-
-                    <div class="print-together">
-                        <div class="no-page-break">
-                            <i class="text-uppercase">Advanced</i>
-                            <br />
-
-                            <ul class="no-bullets sm-padding-left">
-                                <li>R</li>
-                                <li>Shiny</li>
-                                <li>RMarkdown</li>
-                                <li>JavaScript</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Git</li>
-                                <li>R Package Development</li>
-                                <li>Database Management</li>
-                                <li>SQL (MySQL, SQLite, Postgres)</li>
-                                <li>Command-line Scripting (Bash)</li>
-                                <li>MS Office (Excel, etc.)</li>
-                            </ul>
-                            <i class="text-uppercase">Intermediate</i>
-                            <br />
-
-                            <ul class="no-bullets sm-padding-left">
-                                <li>Python</li>
-                                <li>PHP</li>
-                                <li>MQTT</li>
-                            </ul>
-                            <i class="text-uppercase">Familiar</i>
-                            <br />
-
-                            <ul class="no-bullets sm-padding-left">
-                                <li>Julia</li>
-                                <li>Go</li>
-                            </ul>
-                            <i class="text-uppercase">Operating Systems</i>
-                            <br />
-
-                            <ul class="no-bullets sm-padding-left">
-                                <li>Linux (Debian, Ubuntu, Other)</li>
-                                <li>macOS</li>
-                                <li>Amazon AWS</li>
-                                <li>Google Cloud</li>
-                                <li>Docker</li>
-                                <li>Windows</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- // LEFT COLUMN: Skills -->
-
-                    <!-- LEFT COLUMN: Interests -->
-                    <div class="page-header no-margin lg-margin-top">
-                        <h5>Interests</h5>
-                    </div>
-
-                    <div class="print-together">
-                        <div class="no-page-break">
-                            
-
-                            <ul class="no-bullets sm-padding-left">
-                                <li>Data Visualization</li>
-                                <li>Acoustic Instruments</li>
-                                <li>Music</li>
-                                <li>Soccer</li>
-                                <li>Books</li>
-                                <li>Blogging</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- // LEFT COLUMN: Interests -->
-                </small>
-
+      <div class="container" data-aos="zoom-out">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2>Brandon Johnson</h2>
+            <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <div class="social-links">
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
             </div>
-            <!-- // LEFT COLUMN -->
-            <!-- RIGHT COLUMN -->
-            <div class="col-xs-9 no-padding-right column-right">
-                <!-- RIGHT COLUMN: Education -->
-                <div class="print-together">
-                    <div class="no-page-break">
-                        <div class="page-header no-margin-bottom lg-margin-top">
-                             <h5>Education</h5>
-
-                        </div>
-                         <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2014 &mdash; 2018
-                            </span>
-
-                            University of South Florida
-                        </h6>
-
-                        <div class="clearfix"></div>
-                        <p class="education-details no-margin">Ph.D. Candidate (exited ABD), Industrial and Management Systems Engineering
-                            , GPA: 3.95</p>
-                        <div class="clearfix"></div>
-                        <p class="no-margin"> <strong>Courses: </strong>
-Deep Learning, Statistical Design Models, Large-Scale
-                            Optimization, Advanced Analytics, Bayesian Data Analysis</p>
-                         <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2012 &mdash; 2014
-                            </span>
-
-                            University of South Florida
-                        </h6>
-
-                        <div class="clearfix"></div>
-                        <p class="education-details no-margin">MSIE, Industrial and Management Systems Engineering , GPA: 4.00</p>
-                        <div
-                        class="clearfix"></div>
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2005 &mdash; 2006
-                            </span>
-
-                            Universidad Autónoma de Madrid and Syracuse University in Madrid
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">Study Abroad, Spanish</p>
-                    <div class="clearfix"></div>
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2002 &mdash; 2007
-                            </span>
-
-                            Lehigh University
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">B.S. Applied Math, B.A. Spanish, Physics (minor) , GPA: 3.51</p>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <!-- // RIGHT COLUMN: Education -->
-            <!-- RIGHT COLUMN: Certifications -->
-            <div class="page-header no-margin-bottom lg-margin-top">
-                 <h5>Certifications</h5>
-
-            </div>
-             <h6 class="job-title sm-margin-top no-margin-bottom">
-                    <span class="education-date">
-                        Sep 2019 &mdash; Present
-                    </span>
-
-                    RStudio Certified Tidyverse Instructor
-                </h6>
-
-            <div class="clearfix"></div>
-            <!-- // RIGHT COLUMN: Certifications -->
-            <!-- RIGHT COLUMN: Experience -->
-            <div class="page-header no-margin-bottom lg-margin-top">
-                 <h5>Professional Experience</h5>
-
-            </div>
-            <div class="print-together">
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                Present<br />Aug 2019
-                            </span>
-
-                            Scientific Programmer
-                            <br /><small style="font-size: 90%;">Collaborative Data Services, Moffitt Cancer Center</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="job-information no-margin no-padding"></p>
-                    <p class="sm-margin-top newspaper">Worked closely with CDS analysts and Moffitt investigators as a software
-                        engineer to design and implement new tools to automate data ingestion,
-                        cleaning, normalization and reporting. Provided training and support to
-                        CDS analysts in data science best practices while architecting and implementing
-                        new workflows.</p>
-                </div>
-                <ul>
-                    <li>Designed and led trainings in R programming, data analysis, and version
-                        control for multiple teams at Moffitt</li>
-                    <li>Developed several R packages to streamline project management, reporting,
-                        and access to various databases</li>
-                </ul>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                Jan 2020<br />Jan 2020
-                            </span>
-
-                            Workshop: JavaScript for Shiny Users
-                            <br /><small style="font-size: 90%;">rstudio::conf(2020)</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="job-information no-margin no-padding"></p>
-                    <p class="sm-margin-top newspaper">Led two-day, hands-on and project-driven workshop for 90 Shiny users on
-                        JavaScript and web development. Developed the js4shiny R package to support
-                        the workshop and provide additional resources and tools based on R Markdown
-                        and Shiny for JavaScript development in R and RStudio, including an R Markdown
-                        format for literate JavaScript programming and a Shiny app code editor
-                        and live preview for HTML, CSS and JS.</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                Aug 2019<br />May 2018
-                            </span>
-
-                            Research Data Analyst II (Bioinformatics)
-                            <br /><small style="font-size: 90%;">Gerke Lab, Cancer Epidemiology, Moffitt Cancer Center</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="job-information no-margin no-padding"></p>
-                    <p class="sm-margin-top newspaper">Conducted advanced bioinformatic and statistical analyses in support of
-                        cancer epidemiology research. Developed several R packages and worked with
-                        diverse data systems architects to coordinate development efforts throughout
-                        the data life cycle. Applied novel analytic approaches and software pipelines
-                        to multiplex immunohistochemistry data.</p>
-                </div>
-                <ul>
-                    <li>Designed and developed a Shiny dashboard interface with companion R package
-                        for analysis of the FCDS Florida Cancer Registry data</li>
-                    <li>Created and led an in-depth course on data processing with R for data
-                        analysts in Moffitt&#x27;s Collaborative Data Services Core</li>
-                    <li>Awarded internal $50,000 grant as Co-PI with Dr. Gerke to develop DV3,
-                        a framework for data virtualization, visualization and versioning</li>
-                </ul>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                Jan 2018<br />Sep 2014
-                            </span>
-
-                            Project Coordinator and Research Associate
-                            <br /><small style="font-size: 90%;">University of South Florida</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="job-information no-margin no-padding"> <a href="http://usf.edu/engineering/create-health/">usf.edu/engineering/create-health/</a>
-                        <br
-                        />
-                    </p>
-                    <p class="sm-margin-top newspaper">Led diverse team of Ph.D., masters and undergraduate students in development
-                        and evaluation of large smart home project for monitoring the daily activities
-                        of community-dwelling, independent older adults.</p>
-                </div>
-                <ul>
-                    <li>Managed 3 Ph.D., 5 Masters, and 4 undergraduate REU students</li>
-                    <li>Lead software developer for remote sensor data collection, processing,
-                        storage, administration, and visualization</li>
-                    <li>Developed several R packages and Shiny dashboards and interactive front-ends
-                        for inventory management and data processing</li>
-                    <li>Provisioned and administered database and backend servers supporting remote
-                        data collection systems running on Raspberry Pis</li>
-                    <li>Designed and implemented notification microservice for near-real-time
-                        evaluation and alerting for emergent conditions</li>
-                </ul>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                Mar 2017<br />Jul 2016
-                            </span>
-
-                            R Package Developer: MCTestAnalysis
-                            <br /><small style="font-size: 90%;">University of South Florida</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="job-information no-margin no-padding"> <a href="https://gadenbuie.github.io/mctestanalysis/">gadenbuie.github.io/mctestanalysis/</a>
-                        <br
-                        />
-                    </p>
-                    <p class="sm-margin-top newspaper">Developed an R package for Multiple-Choice Test Analysis for educators
-                        who are not comfortable programming. The package includes a web interface
-                        for interactive exploration of test results, or a generated report based
-                        on best practices for the design and evaluation of multiple-choice tests.</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                Sep 2014<br />Sep 2013
-                            </span>
-
-                            Research Assistant
-                            <br /><small style="font-size: 90%;">University of South Florida</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="job-information no-margin no-padding"></p>
-                    <p class="sm-margin-top newspaper">Various tasks and responsibilities in support of engineering education
-                        at USF.</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                Sep 2013<br />Jun 2012
-                            </span>
-
-                            Research Assistant
-                            <br /><small style="font-size: 90%;">Patel College of Global Sustainability, USF</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="job-information no-margin no-padding"> <a href="http://www.usf.edu/pcgs/">usf.edu/pcgs/</a>
-                        <br />
-                    </p>
-                    <p class="sm-margin-top newspaper"></p>
-                </div>
-                <ul>
-                    <li>Research and design of an urban metabolism model for the USF Tampa Campus.</li>
-                    <li>Supervised research of two undergraduate students (Spring 2013).</li>
-                    <li>Assistant to the Director of the Office of Sustainability, USF. Coordinated,
-                        analyzed and prepared reports on campus sustainability-related initiatives.</li>
-                    <li>Assist with research objectives of PCGS and in the preparation of reports,
-                        lectures and talks by PCGS staff and faculty.</li>
-                </ul>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                Sep 2013<br />Sep 2009
-                            </span>
-
-                            Musician and Private Tutor
-                            <br /><small style="font-size: 90%;">Self-employed</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="job-information no-margin no-padding">Chicago, IL and St. Petersburg, FL</p>
-                    <p class="sm-margin-top newspaper"></p>
-                </div>
-                <ul>
-                    <li>Booked, promoted and performed 5-10 shows per month while writing and
-                        recording original music</li>
-                    <li>Performed on local radio stations, including Tampa&#x27;s WMNF</li>
-                    <li>Worked one-on-one with 7 students in Math and Spanish, resulting in an
-                        average grade increase of 17%. Average duration for tutoring sessions were
-                        between 6 weeks to a full semester for each student.</li>
-                </ul>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                Aug 2009<br />Jun 2008
-                            </span>
-
-                            Youth Development Specialist
-                            <br /><small style="font-size: 90%;">Peace Corps</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="job-information no-margin no-padding">Gualaceo, Ecuador</p>
-                    <p class="sm-margin-top newspaper">Served in the Peace Corps in Gualaceo, Ecuador, working in conjunction
-                        with local organizations to provide leadership training to children and
-                        youth among a number of other highlights listed below.</p>
-                </div>
-                <ul>
-                    <li>Created and implemented life-skills training program, educating 70 at-risk
-                        middle school students.</li>
-                    <li>Led Peace Corps Ecuador’s Anti-Trafficking In Persons committee and created
-                        contest-based fundraiser for a shelter for trafficked women in Guayaquil,
-                        Ecuador.</li>
-                    <li>Individually tutored seven middle- and high-school students and two college
-                        math students in math topics such as Trigonometry, Algebra and Calculus.</li>
-                    <li>Designed interactive graphics and edited a six-month, biweekly column
-                        published in the leading provincial newspaper, appealing to both children
-                        and parents, highlight topics including hygiene, public health and children’s
-                        rights.</li>
-                    <li>Organized and delivered an educational course for parents on drug and
-                        alcohol prevention in high-risk community.</li>
-                </ul>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin-bottom">
-                            <span class="job-details">
-                                
-                                
-                                Jun 2008<br />Sep 2007
-                            </span>
-
-                            Sales Administrator
-                            <br /><small style="font-size: 90%;">Interplex Plastics</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="job-information no-margin no-padding"></p>
-                    <p class="sm-margin-top newspaper">Restructured a previously fragmented position, consolidating roles and
-                        responsibilities to improve the processing of all sales orders.</p>
-                </div>
-                <ul>
-                    <li>Successfully improved on-time delivery from 87%-98% for crucial client.</li>
-                    <li>Responsible for order processing and control; monitored shipping and generated
-                        invoices.</li>
-                    <li>Collaborated with various departments to coordinate machine scheduling,
-                        price quotations and revisions to meet customer and supplier needs while
-                        maintaining profit margins.</li>
-                </ul>
-            </div>
-            <!-- // RIGHT COLUMN: Experience -->
-            <!-- RIGHT COLUMN: Military -->
-            <!-- // RIGHT COLUMN: Miliary -->
-            <!-- RIGHT COLUMN: Awards -->
-            <div class="print-together">
-                <div class="no-page-break">
-                    <div class="page-header no-margin-bottom lg-margin-top">
-                         <h5>Awards</h5>
-
-                    </div>
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                Apr 2019
-                            </span>
-
-                            Runner Up, Shiny App Contest
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">RStudio
-                        <br />Selected as one of 10 developers from 136 submissions in recognition of
-                        a web app and dashboard built using Shiny. The dashboard monitors social
-                        media conversations around a conference or event, and received hundreds
-                        of simultaneous visitors per day during RStudio&#x27;s annual conference
-                        in January 2019.</p>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <!-- // RIGHT COLUMN: Awards -->
-            <!-- RIGHT COLUMN: Projects -->
-            <div class="no-page-break">
-                <div class="print-together">
-                    <div class="page-header no-margin-bottom lg-margin-top no-page-break-after">
-                         <h5>Projects</h5>
-
-                    </div>
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin">
-
-                            Scientific Software
-                        </h6>
-
-                        <div class="clearfix"></div>
-                        <p class="education-details no-margin"></p>
-                        <ul class="no-margin-bottom">
-                            <li>moffittCDS - An internal R package for the Collaborative Data Services
-                                Core at Moffitt for managing projects, creating reports, and connecting
-                                to various databases</li>
-                            <li>fcds — <a href="https://gerkelab.github.io/fcds">gerkelab.github.io/fcds</a> 
-                                <br>An R package and Shiny web application for the analysis of Florida Cancer
-                                Regististry data from the <a href="https://fcds.med.miami.edu/inc/welcome.shtml">Florida Cancer Data System</a>
-                            </li>
-                            <li>ShinyDAG — <a href="https://gerkelab.com/project/shinydag">gerkelab.com/project/shinydag</a> 
-                                <br>A web application for building, analyzing, and visualizing directed acyclic
-                                graphs (DAGs)</li>
-                            <li>epiTAD — <a href="https://gerkelab.com/project/epiTAD">gerkelab.com/project/epiTAD</a> 
-                                <br>A web application for visualizing chromosome conformation capture data
-                                in the context of genetic epidemiology</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-
-                            Open Source Software
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin"></p>
-                    <p class="sm-margin-top">I enjoy contributing to open source software projects and whenever possible
-                        I contribute to the R packages that I use. I also have released the following
-                        software packages for R on GitHub:</p>
-                    <ul class="no-margin-bottom">
-                        <li>regexplain: <a href="https://www.garrickadenbuie.com/project/regexplain/">garrickadenbuie.com/project/regexplain/</a>
-                        </li>
-                        <li>xaringanthemer: <a href="https://pkg.garrickadenbuie.com/xaringanthemer">pkg.garrickadenbuie.com/xaringanthemer</a>
-                        </li>
-                        <li>js4shiny: <a href="http://pkg.js4shiny.com/">pkg.js4shiny.com/</a>
-                        </li>
-                        <li>ggpomological: <a href="https://www.garrickadenbuie.com/project/ggpomological">garrickadenbuie.com/project/ggpomological</a>
-                        </li>
-                        <li>countdown: <a href="https://pkg.garrickadenbuie.com/countdown">pkg.garrickadenbuie.com/countdown</a>
-                        </li>
-                        <li>tidyexplain: <a href="https://www.garrickadenbuie.com/project/tidyexplain">garrickadenbuie.com/project/tidyexplain/</a>
-                        </li>
-                        <li>rsthemes: <a href="https://github.com/gadenbuie/rsthemes">github.com/gadenbuie/rsthemes</a>
-                        </li>
-                        <li>metathis: <a href="https://pkg.garrickadenbuie.com/metathis/">pkg.garrickadenbuie.com/metathis/</a>
-                        </li>
-                        <li>ggweekly: <a href="https://github.com/gadenbuie/ggweekly">github.com/gadenbuie/ggweekly</a>
-                        </li>
-                        <li>cleanrmd: <a href="https://pkg.garrickadenbuie.com/cleanrmd">pkg.garrickadenbuie.com/cleanrmd</a>
-                        </li>
-                        <li>tweetrmd: <a href="https://github.com/gadenbuie/tweetrmd">github.com/gadenbuie/tweetrmd</a>
-                        </li>
-                        <li>MCTestAnalysis: <a href="https://www.garrickadenbuie.com/project/mc-test-analysis/">garrickadenbuie.com/project/mc-test-analysis/</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- // RIGHT COLUMN: Projects -->
-            <!-- RIGHT COLUMN: Publications -->
-            <div class="print-together">
-                <div class="page-header no-margin-bottom lg-margin-top">
-                     <h5>Publications</h5>
-
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date" style="min-width: 48px;">
-                                2020
-                            </span>
-
-                            shinyDAG: A web application for building, analyzing, and visualizing directed acyclic graphs (DAGs)
-                            <br /><small style="font-size: 90%;">Epidemiology (In Review)</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">Creed J, Aden-Buie G, Gerke TA</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date" style="min-width: 48px;">
-                                2019
-                            </span>
-
-                            epiTAD: a web application for visualizing chromosome conformation capture data in the context of genetic epidemiology
-                            <br /><small style="font-size: 90%;">Bioinformatics</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">Creed J, Aden-Buie G, Monteiro A, Gerke TA</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date" style="min-width: 48px;">
-                                2019
-                            </span>
-
-                            Effects of tobacco smoking on the tumor immune microenvironment in head and neck squamous cell carcinoma
-                            <br /><small style="font-size: 90%;">Clinical Cancer Research</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">Janis, V, Slebos, RJ, Martin-Gomez, L, Wang, X, Teer, JK, Tan, AC, Gerke,
-                        TA, Aden-Buie, G, Van Veen, T, Masannat, J and Chaudhary, R</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date" style="min-width: 48px;">
-                                2019
-                            </span>
-
-                            Prostate-specific antigen (PSA) levels in men 60 to 70 years of age predict aggressive prostate cancer in the PLCO cancer screening trial: Implications for risk-stratified screening
-                            <br /><small style="font-size: 90%;">European Association of Urology Congress: Mar 15–19; Barcelona, Spain.</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">Berger A, Aden-Buie G, Kibel AS, Mucci LA, Penney K, Wilson K, Gerke TA,
-                        Preston M</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date" style="min-width: 48px;">
-                                2018
-                            </span>
-
-                            Identifying genetic interactions that drive aggressive prostate cancer using an ensemble of penalized Cox regression models
-                            <br /><small style="font-size: 90%;">AACR Convergence: Artificial Intelligence, Big Data, and Prediction in Cancer: Oct 14-17; Newport, RI</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">Laajala TD, Aden-Buie G, Gerke T, Creed J, Berglund A, Stopsack K, Cramer
-                        SD, Tyekucheva S, Aittokallio T, Costello JC</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date" style="min-width: 48px;">
-                                2018
-                            </span>
-
-                            Accessible pipeline for translational research using TCGA: Tristetraprolin as an example relating gene mechanism to a disease specific outcomes
-                            <br /><small style="font-size: 90%;">TCGA Legacy: Multi-Omic Studies in Cancer, Sep 27-29; Washington, DC</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">Berglund A, Putney R, Creed J, Aden-Buie G, Gerke T, Rounbehler R</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date" style="min-width: 48px;">
-                                2015
-                            </span>
-
-                            Comparison of Final Examination Formats in a Numerical Methods Course
-                            <br /><small style="font-size: 90%;">International Journal of Engineering Education</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">Aden-Buie G, Kaw A, Yalcin A</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date" style="min-width: 48px;">
-                                2015
-                            </span>
-
-                            Rough Set Theory Based Prognostic Classification Models for Hospice Referral
-                            <br /><small style="font-size: 90%;">BMC Medical Informatics and Decision Making</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">Gil-Herrera E and Aden-Buie G, Yalcin A, Tsalatsanis A, Barnes LE, Djulbegovic
-                        B</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date" style="min-width: 48px;">
-                                2014
-                            </span>
-
-                            Introduction to Engineering Design: Piloting design projects for the first year engineering experience
-                            <br /><small style="font-size: 90%;">Sixth Annual First Year Engineering Experience Conference</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">Gaines J, Joseph B, Aden-Buie G</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date" style="min-width: 48px;">
-                                2014
-                            </span>
-
-                            Are multiple-choice questions suitable for a final examination in a STEM course?
-                            <br /><small style="font-size: 90%;">American Society for Engineering Education</small>
-                        </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">Aden-Buie G, Kaw A, Yalcin A, Pendyala R</p>
-                </div>
-            </div>
-            <!-- // RIGHT COLUMN: Publications -->
-            <!-- RIGHT COLUMN: Presentations -->
-            <div class="no-page-break">
-                <div class="print-together">
-                    <div class="page-header no-margin-bottom lg-margin-top">
-                         <h5>Presentations</h5>
-
-                    </div>
-                    <div class="no-page-break">
-                         <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2019-07-19
-                            </span>
-
-                            Reproducible Data Workflows with Drake
-                            <br /><small style="font-size: 90%;">Bio-Data Club at Moffitt Cancer Center</small>
-                        </h6>
-
-                        <p class="job-information no-margin no-padding"> <a href="https://gadenbuie.github.io/drake-intro/">gadenbuie.github.io/drake-intro/</a>
-                            <br
-                            />
-                        </p>
-                        <div class="clearfix"></div>
-                        <p class="education-details no-margin"></p>
-                    </div>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2018-11-06
-                            </span>
-
-                            A Gentle Guide to the Grammar of Graphics with ggplot2
-                            <br /><small style="font-size: 90%;">Workshop on Data Analysis Using R (ASA at USF)</small>
-                        </h6>
-
-                    <p class="job-information no-margin no-padding"> <a href="https://www.garrickadenbuie.com/talk/gentle-ggplot2">garrickadenbuie.com/talk/gentle-ggplot2</a>
-                        <br
-                        />
-                    </p>
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin"></p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2018-10-29
-                            </span>
-
-                            The Passive Smart Home: Unobtrusive At-Home Behavior Monitoring
-                            <br /><small style="font-size: 90%;">Utilizing Technology for Data Collection and Intervention, Moffitt Cancer Center</small>
-                        </h6>
-
-                    <p class="job-information no-margin no-padding"> <a href="http://www.garrickadenbuie.com/slides/moffitt-passive-smart-home/">garrickadenbuie.com/slides/moffitt-passive-smart-home/</a>
-                        <br
-                        />
-                    </p>
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">Aden-Buie G</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2018-05-07
-                            </span>
-
-                            Unsupervised behavior change detection using passive sensor systems in the homes of older adults
-                            <br /><small style="font-size: 90%;">11th World Conference of Gerontechnology</small>
-                        </h6>
-
-                    <p class="job-information no-margin no-padding"> <a href="https://www.garrickadenbuie.com/talk/isg-2018/">garrickadenbuie.com/talk/isg-2018/</a>
-                        <br
-                        />
-                    </p>
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">Aden-Buie G, Yalcin A, VandeWeerd C</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2018-01-23
-                            </span>
-
-                            A Gentle Guide to the Grammar of Graphics with ggplot2
-                            <br /><small style="font-size: 90%;">Tampa R Users Meetup</small>
-                        </h6>
-
-                    <p class="job-information no-margin no-padding"> <a href="https://gadenbuie.github.io/trug-ggplot2">gadenbuie.github.io/trug-ggplot2</a>
-                        <br
-                        />
-                    </p>
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">An introduction to data visualization with the R package ggplot2</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2017-10-25
-                            </span>
-
-                            Occupant Activity Profiles from Smart Home Sensor Event Streams
-                            <br /><small style="font-size: 90%;">INFORMS Annual Meeting</small>
-                        </h6>
-
-                    <p class="job-information no-margin no-padding"> <a href="https://www.garrickadenbuie.com/talk/informs-2017/">garrickadenbuie.com/talk/informs-2017/</a>
-                        <br
-                        />
-                    </p>
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">Aden-Buie G, Yalcin A, VandeWeerd C</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2016-03-25
-                            </span>
-
-                            Getting StaRted in R
-                            <br /><small style="font-size: 90%;">INFORMS@USF Code &amp; Data Boot Camp</small>
-                        </h6>
-
-                    <p class="job-information no-margin no-padding"> <a href="https://github.com/gadenbuie/usf-boot-camp-R">github.com/gadenbuie/usf-boot-camp-R</a>
-                        <br
-                        />
-                    </p>
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin"></p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2015-02-06
-                            </span>
-
-                            Ambient Intelligence Applications in Healthcare
-                            <br /><small style="font-size: 90%;">ISERC at IIE Annual Conference &amp; Expo</small>
-                        </h6>
-
-                    <p class="job-information no-margin no-padding"> <a href="https://www.garrickadenbuie.com/talk/iie-iserc-2015/">garrickadenbuie.com/talk/iie-iserc-2015/</a>
-                        <br
-                        />
-                    </p>
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">Aden-Buie G, Yalcin A, VandeWeerd C, Agu N, Hammett J, Yetisener E, Radwan
-                        C</p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2014-04-11
-                            </span>
-
-                            Reporting Reproducible Research with R and Markdown
-                            <br /><small style="font-size: 90%;">INFORMS@USF Code &amp; Data Boot Camp</small>
-                        </h6>
-
-                    <p class="job-information no-margin no-padding"> <a href="https://github.com/gadenbuie/usf-boot-camp-R">github.com/gadenbuie/usf-boot-camp-R</a>
-                        <br
-                        />
-                    </p>
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin"></p>
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                            <span class="education-date">
-                                2013-10-07
-                            </span>
-
-                            Boosted Tree Ensembles for Predicting Postsurgical ICU Mortality
-                            <br /><small style="font-size: 90%;">INFORMS Annual Meeting</small>
-                        </h6>
-
-                    <p class="job-information no-margin no-padding"> <a href="https://www.garrickadenbuie.com/talk/informs-2013/">garrickadenbuie.com/talk/informs-2013/</a>
-                        <br
-                        />
-                    </p>
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin">Aden-Buie G, Chen Y, Romero G, Kayal R, Yang H</p>
-                </div>
-            </div>
-            <!-- // RIGHT COLUMN: Presentations -->
-            <!-- RIGHT COLUMN: Volunteer -->
-            <div class="no-page-break">
-                <div class="page-header no-margin-bottom lg-margin-top">
-                     <h5>Volunteer Experience</h5>
-
-                </div>
-                <div class="no-page-break">
-                     <h6 class="job-title sm-margin-top no-margin">
-                        <span class="education-date">
-                            2014 &mdash; 2015
-                        </span>
-
-                        INFORMS Student Chapter at USF
-                    </h6>
-
-                    <div class="clearfix"></div>
-                    <p class="education-details no-margin"> <span style="font-size: 1.1em">President</span>
-
-                        <br />Served as President of the USF student chapter of INFORMS, the leading
-                        international association for Operations Research and Analytics professionals.</p>
-                    <div
-                    class="clearfix"></div>
-                <ul class="no-margin-bottom">
-                    <li>Started a student-led monthly journal club to share and disseminate cutting-edge
-                        publications in statistics, machine learning, and operations research.</li>
-                    <li>Initiated a travel grant supported by internal fundraising to partially
-                        finance the attendance of chapter members at the INFORMS Annual Meeting.</li>
-                    <li>Organized and led a college-wide code and data bootcamp for undergraduate
-                        and graduate students, featuring hands-on learning of data science and
-                        programming principles.</li>
-                </ul>
-            </div>
+          </div>
         </div>
-        <!-- close div keeping title and first entry together -->
-        <div class="no-page-break">
-             <h6 class="job-title sm-margin-top no-margin">
-                        <span class="education-date">
-                            2013 &mdash; 2014
-                        </span>
+      </div>
 
-                        INFORMS Student Chapter at USF
-                    </h6>
+    </section><!-- /Hero Section -->
 
-            <div class="clearfix"></div>
-            <p class="education-details no-margin"> <span style="font-size: 1.1em">Newsletter Editor</span>
+    <!-- About Section -->
+    <section id="about" class="about section">
 
-                <br />Served as Newsletter Editor of the USF student chapter of INFORMS. Led
-                planning and coordination committee for annual Code &amp; Data Bootcamp</p>
-            <div
-            class="clearfix"></div>
-        <ul class="no-margin-bottom">
-            <li>Redesigned the chapter&#x27;s bi-annual newsletter in Adobe InDesign.</li>
-            <li>Led planning team for INFORMS@USF Code &amp; Data Bootcamp, built comprehensive
-                webpage, organized sessions and source code, and presented multiple sessions
-                on programming and data science with R.</li>
-        </ul>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>UI/UX Designer &amp; Web Developer.</h2>
+            <p class="fst-italic py-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
+            </p>
+          </div>
         </div>
-        <!-- close div keeping title and first entry together -->
-        <!-- // RIGHT COLUMN: Volunteer -->
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-emoji-smile"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Happy Clients</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-journal-richtext"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-headset"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-people"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hard Workers</p>
+            </div>
+          </div><!-- End Stats Item -->
+
         </div>
-        <!-- // Right COLUMN -->
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>WordPress/CMS</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
         </div>
-        <!-- // Container -->
-    </body>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Sumary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Brandon Johnson</h4>
+              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <ul>
+                <li>Portland par 127,Orlando, FL</li>
+                <li>(123) 456-7891</li>
+                <li>alice.barkley@example.com</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Master of Fine Arts &amp; Graphic Design</h4>
+              <h5>2015 - 2016</h5>
+              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
+              <h5>2010 - 2014</h5>
+              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Senior graphic design specialist</h4>
+              <h5>2019 - Present</h5>
+              <p><em>Experion, New York, NY </em></p>
+              <ul>
+                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
+                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Graphic design specialist</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-product">Card</li>
+            <li data-filter=".filter-branding">Web</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Product 1</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 1</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Product 2</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 2</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Product 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                </svg>
+                <i class="bi bi-activity"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Nesciunt Mete</h3>
+              </a>
+              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item item-orange position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
+                </svg>
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Eosle Commodi</h3>
+              </a>
+              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item item-teal position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                </svg>
+                <i class="bi bi-easel"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Ledo Markt</h3>
+              </a>
+              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item item-red position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
+                </svg>
+                <i class="bi bi-bounding-box-circles"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Asperiores Commodit</h3>
+              </a>
+              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item item-indigo position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
+                </svg>
+                <i class="bi bi-calendar4-week icon"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Velit Doloremque</h3>
+              </a>
+              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item item-pink position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
+                </svg>
+                <i class="bi bi-chat-square-text"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Dolori Architecto</h3>
+              </a>
+              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Saul Goodman</h3>
+                      <h4>Ceo &amp; Founder</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-1.jpg" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Sara Wilsson</h3>
+                      <h4>Designer</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-2.jpg" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Jena Karlis</h3>
+                      <h4>Store Owner</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-3.jpg" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>John Larson</h3>
+                      <h4>Entrepreneur</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-4.jpg" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+1 5589 55488 55</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>info@example.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Brandon Johnson</h3>
+      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Alex Smith</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distribuited by <a href="https://themewagon.com">ThemeWagon</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
 
 </html>
