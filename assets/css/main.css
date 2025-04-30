@@ -1451,7 +1451,9 @@ section,
   color: var(--accent-color);
 }
 
-ul {
+.nopadding
+{
+  float:left;
   padding: 0;
   list-style-type: none;
 }
