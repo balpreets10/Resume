@@ -1476,7 +1476,7 @@ section,
 /* Other Website CSS Section */
 
 .portfolio-modal .btn-close {
-  color: #b91abc;
+  color: #1abc9c;
   font-size: 2rem;
   padding: 1rem;
 }
@@ -1981,7 +1981,7 @@ section,
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(31, 35, 34, 0.9);
+  background-color: rgba(35, 37, 36, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -1991,7 +1991,7 @@ section,
 }
 
 .portfolio-modal .btn-close {
-  color: #410be3;
+  color: #1abc9c;
   font-size: 2rem;
   padding: 1rem;
 }
