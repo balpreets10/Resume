@@ -763,12 +763,14 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
-/*.portfolio .portfolio-filters {
+.portfolio .portfolio-filters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
+
+/*
 
 .portfolio .portfolio-filters li {
   cursor: pointer;
