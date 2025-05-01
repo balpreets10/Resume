@@ -8859,6 +8859,10 @@ fieldset:disabled .btn {
     margin: 0 !important
 }
 
+.m-0auto{
+    margin: 0 auto;
+}
+
 .m-1 {
     margin: .25rem !important
 }
