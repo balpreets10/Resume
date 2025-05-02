@@ -548,9 +548,9 @@ section,
   z-index: 3;
 }
 
-.home h2 {
+.about h2 {
   margin: 0;
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 700;
 }
 
