@@ -319,7 +319,7 @@ h6 {
   border-radius: 50%;
   text-align: center;
   width: 50px;
-  height: 50x;
+  height: 50px;
   transition: 0.3s;
 }
 
@@ -564,20 +564,20 @@ section,
   border-bottom: 2px solid var(--accent-color);
 }
 
-.home .social-links {
+.about .social-links {
   margin-top: 20px;
 }
 
-.home .social-links a {
-  font-size: 20px;
+.about .social-links a {
+  font-size: 25px;
   display: inline-block;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
-  line-height: 1;
+  line-height: 2;
   margin-right: 20px;
   transition: 0.3s;
 }
 
-.home .social-links a:hover {
+.about .social-links a:hover {
   color: var(--accent-color);
 }
 
