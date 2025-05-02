@@ -461,7 +461,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 25px 0;
+  padding: 25px 5px;
   overflow: clip;
 }
 
@@ -765,7 +765,7 @@ section,
 --------------------------------------------------------------*/
 .portfolio .portfolio-filters {
   padding: 0;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 20px 5px;
   list-style: none;
   text-align: center;
 }
