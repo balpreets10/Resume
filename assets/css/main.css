@@ -1929,7 +1929,7 @@ section,
 
 
 .page-section {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -1979,7 +1979,7 @@ section,
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 20rem;
+  max-width: 22rem;
   border-radius: 0.5rem;
   overflow: hidden;
 }
