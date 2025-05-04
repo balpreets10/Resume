@@ -1031,6 +1031,14 @@ section,
   bottom: 0;
 }
 
+.portfolio-details .portfolio-info .a {
+  padding: 8px 40px;
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
 /* .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
