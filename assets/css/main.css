@@ -771,9 +771,10 @@ section,
   text-align: center;
 }
 
-.resume .resume-title {
+.portfolio .portfolio-title {
   color: var(--accent-color);
   font-size: 26px;
+  text-align: center;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
