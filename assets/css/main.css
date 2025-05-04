@@ -707,6 +707,7 @@ section,
 .resume .resume-title {
   color: var(--accent-color);
   font-size: 26px;
+  text-align: center;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -768,6 +769,14 @@ section,
   margin: 0 auto 20px 5px;
   list-style: none;
   text-align: center;
+}
+
+.resume .resume-title {
+  color: var(--accent-color);
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /*
