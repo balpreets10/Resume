@@ -459,7 +459,7 @@ h6 {
 --------------------------------------------------------------*/
 section,
 .section {
-  color: var(--accent-color);
+  color: var(--default-color);
   background-color: var(--background-color);
   padding: 25px 5px;
   overflow: clip;
