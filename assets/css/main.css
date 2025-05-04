@@ -482,7 +482,7 @@ section,
   position: relative;
 }
 
-.section-title h2:before {
+/* .section-title h2:before {
   content: "";
   position: absolute;
   display: block;
@@ -506,7 +506,7 @@ section,
   right: 0;
   bottom: 0;
   margin: auto;
-}
+} */
 
 .section-title p {
   margin-bottom: 0;
