@@ -1,3 +1,10 @@
+.divider {
+  position: relative;
+  border-bottom: 3px solid #1c1b3c;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
 .divider-custom {
     margin: 1.25rem 0 1.5rem;
     width: 100%;
@@ -6,10 +13,10 @@
     align-items: center;
   }
   .divider-custom .divider-custom-line {
-    width: 75%;
+    width: 70%;
     /* max-width: 15rem; */
-    height: 0.22rem;
-    background-color: #104b87;
+    height: 0.2rem;
+    background-color: #361d9c;
     border-radius: 1rem;
     border-color: #104b87;
   }

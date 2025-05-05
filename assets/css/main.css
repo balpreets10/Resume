@@ -1012,15 +1012,15 @@ section,
   background-color: var(--accent-color);
 }
 
-.portfolio-details .portfolio-info h3 {
+/* .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-}
+} */
 
-.portfolio-details .portfolio-info h3:after {
+/* .portfolio-details .portfolio-info h3:after {
   content: "";
   position: absolute;
   display: block;
@@ -1029,7 +1029,7 @@ section,
   background: var(--accent-color);
   left: 0;
   bottom: 0;
-}
+} */
 
  .portfolio-details .portfolio-info ul {
   list-style: none;
@@ -1040,13 +1040,12 @@ section,
 .portfolio-details .portfolio-info ul li {
   display: flex;
   flex-direction: column;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 } 
 
  .portfolio-details .portfolio-info ul strong {
   text-transform: uppercase;
-  font-weight: 400;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  /* color: color-mix(in srgb, var(--default-color), transparent 50%); */
   font-size: 14px;
 } 
 
