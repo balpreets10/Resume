@@ -1038,16 +1038,16 @@ section,
 }
 
 .portfolio-details .portfolio-info ul li {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   padding-bottom: 5px;
 } 
 
- .portfolio-details .portfolio-info ul strong {
+ /* .portfolio-details .portfolio-info ul strong {
   text-transform: uppercase;
-  /* color: color-mix(in srgb, var(--default-color), transparent 50%); */
+  color: color-mix(in srgb, var(--default-color), transparent 50%); 
   font-size: 14px;
-} 
+} */
 
 .portfolio-details .portfolio-info .btn-visit {
   padding: 8px 40px;
