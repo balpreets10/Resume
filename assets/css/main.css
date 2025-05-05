@@ -463,7 +463,8 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  margin-top: 20px;
+  margin-top: 80px;
+  margin-bottom: 20px;
   padding: 25px 5px;
   overflow: clip;
 }
