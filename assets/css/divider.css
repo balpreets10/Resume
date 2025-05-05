@@ -1,12 +1,12 @@
 .divider {
   position: relative;
   border-bottom: 3px solid #1c1b3c;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .divider-custom {
-    margin: 1.25rem 0 1.5rem;
+    margin: 0 0 1rem;
     width: 100%;
     display: flex;
     justify-content: center;

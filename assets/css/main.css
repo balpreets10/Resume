@@ -494,6 +494,14 @@ section,
   color: var(--resume-color-purple);
 }
 
+.section-title .btn-download {
+  padding: 8px 40px;
+  background: var(--resume-color-orange);
+  color: var(--default-color);
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
 /* .section-title h2:before {
   content: "";
   position: absolute;
@@ -522,6 +530,7 @@ section,
 
 .section-title p {
   margin-bottom: 0;
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
