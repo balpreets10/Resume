@@ -497,8 +497,11 @@ section,
 .section-title .btn-download {
   padding: 8px 40px;
   background: var(--resume-color-orange);
-  color: var(--default-color);
-  border-radius: 25px;
+  color: var(--contrast-color);
+  border-radius:20px;
+  border-color: #060606;
+  border-width: 1.5px;
+  border-style: solid;
   transition: 0.3s;
 }
 
