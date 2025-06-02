@@ -8,10 +8,10 @@ export const renderAbout = () => {
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="row justify-content-start">
-        <div class="col-8 col-lg-8">
+        <div class="col-7 col-lg-8">
           <h1>BALPREET SINGH</h1>
         </div>
-        <div class="col-4 col-lg-4">
+        <div class="col-5 col-lg-4">
           <a
             class="dlresume"
             href="https://balpreets10.github.io/Resume/assets/Balpreet Singh CV.pdf"

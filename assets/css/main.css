@@ -507,7 +507,7 @@ section,
 
 .dlresume
 {
-padding: 8px 40px;
+  padding: 5px 10px;
   background: var(--resume-color-orange);
   color: var(--contrast-color);
   border-radius:40px;
