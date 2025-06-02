@@ -1,8 +1,10 @@
-import { renderAbout } from './components/about.js';
-import { renderEducation } from './components/education.js';
-import { renderSkills } from './components/skills.js';
-import { renderProjects } from './components/projects.js';
-import { renderFooter } from './components/footer.js';
+const VERSION = Date.now();
+
+import { renderAbout } from ('./components/about.js?v=' + VERSION);
+import { renderEducation } from ('./components/education.js?v=' + VERSION);
+import { renderSkills } from ('./components/skills.js?v=' + VERSION);
+import { renderProjects } from ('./components/projects.js?v=' + VERSION);
+import { renderFooter } from ('./components/footer.js?v=' + VERSION);
 
 document.addEventListener('DOMContentLoaded', () => {
     const main = document.querySelector('main.main');
