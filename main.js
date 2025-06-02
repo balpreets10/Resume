@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
     main.innerHTML = `
         ${renderAbout()}
         ${renderSkills()}
-        ${renderEducation()}
         ${renderProjects()}
+        ${renderEducation()}
         ${renderFooter()}
     `;
 
