@@ -1,4 +1,4 @@
-const VERSION = Date.now();
+const VERSION = 1.1;
 
 import { renderAbout } from './components/about.js?v=${VERSION}';
 import { renderEducation } from './components/education.js?v=${VERSION}';
