@@ -18,7 +18,7 @@ export const renderAbout = () => {
             class="btn-download align-items-center"
             target="_blank"
             rel="noopener noreferrer"
-            >Download Resume</a
+            >Download CV</a
           >
         </div>
         <div class="row justify-content-start"></div>
