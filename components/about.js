@@ -1,31 +1,63 @@
 //About Section -->
 export const renderAbout = () => {
-    return `
+  return `
     <section id="about" class="about section" data-aos="fade-up">
 
       <!-- Section Title -->
 
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row justify-content-start">
-          <div class="col-lg-7">
-            <h1>BALPREET SINGH</h1>
-            <p>I am <span class="typed"
-                data-typed-items="Technical Team Lead, Game Developer, Unity Programmer, C# Expert"></span>
-              <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
-            </p>
-            <div class="social-links">
-              <a href="https://linkedin.com/in/balpreets7" target="_blank" rel="noopener noreferrer"><i
-                  class="bi bi-linkedin"></i></a>
-              <a href="https://instagram.com/balpreets7" target="_blank" rel="noopener noreferrer"> <i
-                  class="bi bi-instagram"></i></a>
-              <a href="https://facebook.com/balpreets7" target="_blank" rel="noopener noreferrer"><i
-                  class="bi bi-facebook"></i></a>
-              <a href="https://x.com/balpreets7" target="_blank" rel="noopener noreferrer"><i
-                  class="bi bi-twitter-x"></i></a>
-            </div>
-          </div>
+      <div class="row justify-content-start">
+        <div class="col-8 col-lg-8">
+          <h1>BALPREET SINGH</h1>
         </div>
+        <div class="col-4 col-lg-4">
+          <a
+            class="dlresume"
+            href="https://balpreets10.github.io/Resume/assets/Balpreet Singh CV.pdf"
+            class="btn-download align-items-center"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Download Resume</a
+          >
+        </div>
+        <div class="row justify-content-start"></div>
+        <p>
+          I am
+          <span
+            class="typed"
+            data-typed-items="Technical Team Lead, Game Developer, Unity Programmer, C# Expert"></span>
+          <span
+            class="typed-cursor typed-cursor--blink"
+            aria-hidden="true"></span>
+        </p>
+        <div class="social-links">
+          <a
+            href="https://linkedin.com/in/balpreets7"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+          <a
+            href="https://instagram.com/balpreets7"
+            target="_blank"
+            rel="noopener noreferrer">
+            <i class="bi bi-instagram"></i
+          ></a>
+          <a
+            href="https://facebook.com/balpreets7"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a
+            href="https://x.com/balpreets7"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bi bi-twitter-x"></i
+          ></a>
+        </div>
+      </div>
 
         <div class="container section-title">
           <h2>ABOUT</h2>

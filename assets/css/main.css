@@ -505,6 +505,18 @@ section,
   transition: 0.3s;
 }
 
+.dlresume
+{
+padding: 8px 40px;
+  background: var(--resume-color-orange);
+  color: var(--contrast-color);
+  border-radius:40px;
+  border-color: #060606;
+  border-width: 2.5px;
+  border-style: solid;
+  transition: 0.3s;
+}
+
 /* .section-title h2:before {
   content: "";
   position: absolute;

@@ -1,5 +1,5 @@
 export const renderEducation = () => {
-    return `
+  return `
     <section id="resume" class="resume section">
 
       <!-- Section Title -->

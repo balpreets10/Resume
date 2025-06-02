@@ -1,11 +1,8 @@
 import { renderAbout } from './components/about.js';
 import { renderEducation } from './components/education.js';
-//import { renderExperience } from './components/experience.js';
 import { renderSkills } from './components/skills.js';
 import { renderProjects } from './components/projects.js';
 import { renderFooter } from './components/footer.js';
-
-//const mainContent = document.getElementsByClassName('main');
 
 document.addEventListener('DOMContentLoaded', () => {
     const main = document.querySelector('main.main');
